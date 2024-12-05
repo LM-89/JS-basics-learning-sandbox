@@ -61,3 +61,43 @@ console.log(`Jhon said: that's my car.`)
 console.log(`Jhon \`said\`: "that's my car".`)   // backslash \ naudojamas kad ignoruoti pasikartojanti ir konfliktuojanti simboli ` ' "    
 console.log(`Jhon\\ \`said\`: "that's my car".`)  //(kad atvaizduoti \, reikia deti dar viena \ (\\))
 console.log(`Jhon\\ \\\`said\\\`: "that's my car".`)   //kad atvaizduoti \ ir ignoruotu backticka
+
+// let d = new Date();
+// alert("Today's date is " + d);
+
+let d = new Date();
+document.body.innerHTML = "<h1>Today's date is " + d + "</h1>"
+
+// alert("Hello")  issokantis pranesimas/alertas svetaines lange (jei iskart neatvaizduoja, rr page)
+
+// alert('Hello'); alert('World');
+
+
+/*Rašyba svarbu
+Kintamieji, pavadinti apple ir APPLE, yra du skirtingi kintamieji.*/
+
+
+
+/* CAO kintamuju uzduotys:
+1. Pratimas:*/
+let name = 'Jonas';
+let admin;
+admin = name;
+alert(admin);
+
+/*    Sukurkite kintamąjį su mūsų planetos pavadinimu. Kaip pavadintumėte tokį kintamąjį?
+
+Sukurkite kintamąjį, kad išsaugotumėte dabartinio svetainės lankytojo vardą. Kaip pavadintumėte tą kintamąjį?*/
+let ourPlanetName = 'Earth';
+console.log(ourPlanetName);
+
+let currentUserName = 'Jonas';
+
+
+/*const BIRTHDAY = '18.04.1982'; // padaryti birthday didziosiomis? TAIP NES TAI NIEKADA NEKINTANTI REIKSME!!
+
+const AGE = someCode(BIRTHDAY); // padaryti age didziosiomis?   ne, nes tai kintanti reiksme(taciau const tipo nekintanti apskaiciavimo metu)!!*/
+
+/*const BIRTHDAY = '17.03.1989';
+const age = someCode(BIRTHDAY);*/
+// "someCode" yra galimas js kodas, kuris apskaiciuoja amziu pagal gimimo data!
