@@ -51,3 +51,13 @@ console.log('Vardas: ' + vardas + ' ' + pavarde + ' (' + amzius + ' metu), adres
 console.log("Vardas: " + vardas + " " + pavarde + " (" + amzius + " metu), adresas: " + miestas + ", asmens kodas: " + asmensKodas + ".")
 
 console.log(`Vardas: ${vardas} ${pavarde} (${amzius} metu), adresas: ${miestas}, asmens kodas: ${asmensKodas}.`)   //greiciausias budas iterpti kintamuosius i teksto eilute naudojant backtick kabutes
+
+
+//Jhon `said`: "that's my car".
+console.log("Jhon said: that's my car.")
+console.log(`Jhon said: that's my car.`)
+//console.log(Jhon `said`: "that's my car.")  pvz kai netinka viengubos '' kabutes, taip pat gali buti su dvigubomis jei tekste yra "". Gali buti ir su backtickais.
+
+console.log(`Jhon \`said\`: "that's my car".`)   // backslash \ naudojamas kad ignoruoti pasikartojanti ir konfliktuojanti simboli ` ' "    
+console.log(`Jhon\\ \`said\`: "that's my car".`)  //(kad atvaizduoti \, reikia deti dar viena \ (\\))
+console.log(`Jhon\\ \\\`said\\\`: "that's my car".`)   //kad atvaizduoti \ ir ignoruotu backticka
